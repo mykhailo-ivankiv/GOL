@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            min-height: 100vh;
+        }
+        .GOL {
+
+            background: #ecf0f1;
+            overflow: hidden;
+            /*width: 240px;*/
+            /*height: 240px;*/
+            margin:auto;
+        }
+        .GOL__cell {
+            height: 20px;
+            width: 20px;
+            float: left;
+            margin:2px;
+        }
+
+        .GOL__cell_alive {
+            background-color: #e74c3c;
+        }
+        .GOL__cell_dead {
+            background-color: #8e44ad;
+        }
+        .GOL__row{
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="GOL" id="game">
+        <!--<div class="GOL__cell GOL__cell_alive"></div>-->
+        <!--<div class="GOL__cell GOL__cell_alive"></div>-->
+        <!--<div class="GOL__cell GOL__cell_alive"></div>-->
+        <!--<div class="GOL__cell GOL__cell_alive"></div>-->
+        <!--<div class="GOL__cell GOL__cell_dead"></div>-->
+    </div>
+    <script src="GOL.js"></script>
+</body>
+</html>
